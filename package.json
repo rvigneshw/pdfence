@@ -1,6 +1,6 @@
 {
   "name": "pdfence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encrypt PDF files on the fly",
   "main": "index.js",
   "scripts": {
