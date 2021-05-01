@@ -1,0 +1,28 @@
+{
+  "name": "pdfence",
+  "version": "1.0.0",
+  "description": "Encrypt PDF files on the fly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvigneshw/pdfence.git"
+  },
+  "keywords": [
+    "PDF",
+    "Encryption",
+    "Password",
+    "protect"
+  ],
+  "author": "Vigneshwaran R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvigneshw/pdfence/issues"
+  },
+  "homepage": "https://github.com/rvigneshw/pdfence#readme",
+  "dependencies": {
+    "muhammara": "^1.7.0"
+  }
+}
