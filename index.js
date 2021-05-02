@@ -48,7 +48,7 @@ const fromBufferTofile = (buffer, outputFilePath, passwordOptions) => {
     }
 };
 
-export {
+module.exports = {
     fromBufferToBuffer,
     fromBufferTofile,
     fromFileToFile,
