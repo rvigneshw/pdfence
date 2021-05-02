@@ -36,7 +36,7 @@ const fromFileToFile = (inputFilePath, outputFilePath, passwordOptions) => {
     }
 };
 
-const fromBufferTofile = (buffer, outputFilePath, passwordOptions) => {
+const fromBufferToFile = (buffer, outputFilePath, passwordOptions) => {
     try {
         const readStream = new muhammara.PDFRStreamForBuffer(buffer);
         const writeStream = new muhammara.PDFWStreamForFile(outputFilePath);
@@ -50,7 +50,7 @@ const fromBufferTofile = (buffer, outputFilePath, passwordOptions) => {
 
 module.exports = {
     fromBufferToBuffer,
-    fromBufferTofile,
+    fromBufferToFile,
     fromFileToFile,
     fromFileToBuffer
 }

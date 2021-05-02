@@ -45,3 +45,7 @@ passwordOptions is a simple object which must look like this
 ### Note
 
 >All the above mentioned methods will return false if something goes wrong.
+
+### Demo
+
+> Here's a quick demo on repl.it https://replit.com/@rvigneshw/SecondPuzzledThing#index.js
